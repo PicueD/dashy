@@ -17,7 +17,7 @@ appConfig:
     keycloak:
       serverUrl: 'https://keycloak.cogitos.uk'
       realm: 'homelab'
-      clientId: 'dashy'
+      clientId: 'service-dashy'
 pageInfo:
   title: Demo Homelab
   description: Live Demo of Dashy

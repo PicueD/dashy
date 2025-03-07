@@ -12,12 +12,13 @@ appConfig:
   layout: auto
   iconSize: medium
   language: cn
+
   auth:
-    enableKeycloak: true
-    keycloak:
-      serverUrl: 'https://keycloak.cogitos.uk'
-      realm: 'homelab'
+    enableOidc: true
+    oidc:
       clientId: 'service-dashy'
+      endpoint: 'https://keycloak.cogitos.uk'
+      scope:  'openid profile roles email groups'
 pageInfo:
   title: Demo Homelab
   description: Live Demo of Dashy

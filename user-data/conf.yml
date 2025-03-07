@@ -203,9 +203,11 @@ sections:
         icon: hl-wallabag
         url: https://wb.ks.cogitos.uk
         target: newtab
+        provider: Self-Host
         statusCheck: true
         statusCheckUrl: https://wb.ks.cogitos.uk
-        provider: Self-Host
+        tags:
+          - rss
         id: 3_1302_wallabag
       - title: ArchiveBox
         description: Archive Manager
@@ -214,6 +216,11 @@ sections:
       - title: VS Code
         description: Cloud code editor
         icon: hl-code
+        url: https://cs.cogitos.uk
+        target: newtab
+        statusCheck: true
+        provider: Self-Host
+        statusCheckUrl: https://cs.cogitos.uk
         id: 5_1302_vscode
   - name: Learn more about Dashy
     icon: fas fa-rocket

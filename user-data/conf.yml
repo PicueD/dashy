@@ -201,6 +201,11 @@ sections:
       - title: Wallabag
         description: Bookmark Manager
         icon: hl-wallabag
+        url: https://wb.ks.cogitos.uk
+        target: newtab
+        statusCheck: true
+        statusCheckUrl: https://wb.ks.cogitos.uk
+        provider: Self-Host
         id: 3_1302_wallabag
       - title: ArchiveBox
         description: Archive Manager

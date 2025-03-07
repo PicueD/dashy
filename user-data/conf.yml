@@ -18,7 +18,7 @@ appConfig:
     oidc:
       clientId: 'service-dashy'
       endpoint: 'https://keycloak.cogitos.uk/realms/homelab'
-      scope:  'openid profile roles email groups'
+      scope:  'profile roles email groups'
 pageInfo:
   title: Demo Homelab
   description: Live Demo of Dashy

@@ -13,14 +13,14 @@ appConfig:
   iconSize: medium
   language: cn
 pageInfo:
-  title: Homelab
-  description: Self-Host Services And Useful Sites
-  # navLinks:
-  #   - title: GitHub
-  #     path: https://github.com/Lissy93/dashy
-  #   - title: Documentation
-  #     path: https://dashy.to/docs
-  # footerText: ''
+  title: Demo Homelab
+  description: Live Demo of Dashy
+  navLinks:
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+    - title: Documentation
+      path: https://dashy.to/docs
+  footerText: ''
 sections:
   - name: Media & Entertainment
     icon: fas fa-photo-video
@@ -153,6 +153,8 @@ sections:
       - title: Home Assistant
         description: Smart home control
         icon: hl-home-assistant
+        url: ha.cogitos.uk
+        statusCheckUrl: ha.cogitos.uk
         id: 0_1162_homeassistant
       - title: Node-RED
         description: Flow-based automation
@@ -184,6 +186,13 @@ sections:
       - title: BitWarden
         description: Password manager
         icon: hl-bitwarden
+        url: https://warden.ks.cogitos.uk
+        target: newtab
+        statusCheck: true
+        statusCheckUrl: https://warden.ks.cogitos.uk
+        tags:
+          - password
+        provider: Self-Host
         id: 1_1302_bitwarden
       - title: Readarr
         description: E-reader app
